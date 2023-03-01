@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Bebas-neue" ;
+    src: url(../Assets/BebasNeue-Regular.ttf);
+}
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classe genrica para centralizar o site */
+.layout-grid{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: solid 3px yellow;
+   
+}
+
+
+
+ /******** HEADER ********/
+
+header{
+    height: 60px;
+    /* width: 100%; */
+    background-color: #F9003D;
+}
+
+header .header-flex{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    height: 60px;
+    
+}
+
+nav{
+
+    border: solid 3px green;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+} 
+
+header nav a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Bebas-neue";
+    
+}
