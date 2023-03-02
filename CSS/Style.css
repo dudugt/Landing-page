@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Bebas-neue" ;
-    src: url(../Assets/BebasNeue-Regular.ttf);
+    font-family: "Bebas-neue";
+    src: url(../Assets/fonts/BebasNeue-Regular.ttf);
 }
 
 /* Reset CSS */
@@ -15,7 +15,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: solid 3px yellow;
+    /* border: solid 3px yellow; */
    
 }
 
@@ -40,7 +40,7 @@ header .header-flex{
 
 nav{
 
-    border: solid 3px green;
+    /* border: solid 3px green; */
     width: 600px;
     display: flex;
     justify-content: space-between;
@@ -51,8 +51,60 @@ nav{
 header nav a {
 
     text-decoration: none;
+    text-transform: uppercase;
     color: white;
     font-size: 18px;
     font-family: "Bebas-neue";
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 10px black;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+header nav a:hover{
+
+    text-shadow: 2px 2px 5px rgba(249,0,61,0.6);
+    background-color: white;
+    color: blue;
+}
+
+
+/******  MAIN  *******/
+
+ .banner {
     
+    height:740px ;
+    /* background-color: royalblue; */
+    background-image: url(../Assets/imagem-fundo-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+article h1 {
+
+    color: white;
+    font-family: "Bebas-neue";
+    font-size: 96px;
+    text-transform: uppercase;
+    height:230px;
+    width:600px;
+
+}
+
+article{
+    display: flex;
+    justify-content: ; 
+     align-items: center;
+     padding: 121px;
+}
+
+hr{
+    border: solid 1px #FFAF00;
+    margin: 20px 0;
+    width: 43vw;
+}
+
+#config{
+    display: flex;
+    align-items: center;
 }
