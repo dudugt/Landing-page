@@ -3,6 +3,11 @@
     src: url(../Assets/fonts/BebasNeue-Regular.ttf);
 }
 
+@font-face {
+    font-family:"open-sans" ;
+    src: url(../Assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
 /* Reset CSS */
 *{
     margin: 0;
@@ -71,13 +76,17 @@ header nav a:hover{
 
 /******  MAIN  *******/
 
+
+
+/***** Article  *****/
+
  .banner {
     
     height:740px ;
     /* background-color: royalblue; */
     background-image: url(../Assets/imagem-fundo-banner.png);
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover  ;
 }
 
 article h1 {
@@ -89,22 +98,139 @@ article h1 {
     height:230px;
     width:600px;
 
+    /* margin-bottom: 3px solid #FFAF00;
+    padding-bottom: 16px; */
+
 }
 
 article{
-    display: flex;
-    justify-content: ; 
+     display: flex;
      align-items: center;
-     padding: 121px;
+     /* padding: 100px; */
 }
 
 hr{
     border: solid 1px #FFAF00;
     margin: 20px 0;
-    width: 43vw;
+    width: 36vw;
+    
 }
 
-#config{
-    display: flex;
-    align-items: center;
+article p{
+    color :#F9003D;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 53px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+
+img{
+
+    padding-top: 29px;;
+}
+
+/***** Section  ******/
+
+section{
+    background-color: #080324;
+    /* margin-bottom: 50px; */
+    color: white;
+}
+
+section .container-sobre{
+    display: flex;
+}
+
+section .img-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+}
+
+section img{
+    width: 491px;
+    height: 476px;
+}
+
+section .lado-direito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 620px;
+    height: 500px;
+
+    margin-left: 109px;
+    margin-top: 194px;
+
+}
+
+section div h2 {
+
+    font-family: "bebas-neue";
+    font-size: 64px;
+    color: #F9003D;
+    padding: 40px 0;
+}
+
+section span{
+
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section h3 {
+    font-family: "bebas-neue";
+    font-size: 64px;
+    color: #FFAF00;
+    text-transform: uppercase;
+
+}
+
+section p{
+    font-family:"open-sans";
+    font-size: 18px;
+    
+}
+
+/***** Section com Article's  *****/
+
+.img_background {
+background-image: url(../Assets/imagem-fundo-info.png);
+height: 200px;
+display: flex;
+align-items : center;
+
+}
+
+ .locais {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .box-roxa p{
+     width: 289px;
+     height: 100px;
+     border: solid 1px #A259F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: #A259F7;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+
+ .info{
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bold;
+     font-size: 24px;
+     color: white;
+     text-transform: uppercase;
+     margin-bottom: 10px;
+ }
