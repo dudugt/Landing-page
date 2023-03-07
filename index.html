@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/Style.css">
+
     <title>Landing Page</title>
 </head>
 
@@ -13,12 +14,14 @@
 
     <header>
         <div class="layout-grid header-flex">
-            <nav>
+            <nav id="navmenu">
                 <a href="">Inicio</a>
                 <a href="">Sobre</a>
                 <a href="">Desafios</a>
                 <a href="">endereco</a>
             </nav>
+
+            <img id="menu-mobile" src="../Landing-page/Assets/icons/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="" onclick="mostrarmenu()">
 
         </div>
     </header>
@@ -62,14 +65,14 @@
         <section class="img_background">
             <div class="layout-grid  locais">
 
-                <article>
+                <article class="teste">
                     <h2>local</h2>
                     <div class="box-roxa">
                         <p>são paulo</p>
                     </div>
                 </article>
 
-                <article>
+                <article class="teste">
                     <h2>duração</h2>
                     <div class="box-roxa">
                         <p>90 dias</p>
@@ -77,7 +80,7 @@
                 </article>
 
 
-                <article>
+                <article class="teste">
 
                     <h2>desafios</h2>
                     <div class="box-roxa">
@@ -96,6 +99,13 @@
 
     <footer></footer>
 
+
+    <script>
+        function mostrarmenu() {
+
+            document.getElementById("navmenu").classList.toggle("mostrarmenu");
+        }
+    </script>
 
 </body>
 
