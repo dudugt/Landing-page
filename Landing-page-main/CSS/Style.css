@@ -219,6 +219,18 @@ section p {
     height: 200px;
 }
 
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    align-items: flex-start;
+    
+}
+section article h2 {
+
+    padding-bottom: 1px;
+}
 .box-roxa {
     display: flex;
     justify-content: center;
@@ -247,16 +259,71 @@ main section .locais h2 {
     font-size: 24px;
     color: white;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
-.teste {
+
+
+/****** Section Endereço ******/
+
+ .endereco{
+    background-image: url(../Assets/imagem-fundo-endereco.png);
+    height: 516px ;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.endereco h2 {
+    font-family: "Bebas-neue";
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFAF00;
+    width: 899px;
+    text-transform: uppercase;
+}
+
+.box-endereço {
+    display: flex;
+    align-items: center;
+    width: 899px;
+    height: 204px;
+    background-color: #010010;
+    border: 2px solid #340B65;
+}
+
+.box-endereço p {
+    font-family: "Courier New";
+    font-size: 24px;
+    line-height: 27px;
+    color: #A259F7;
+    width: 435px;
+    margin-left: 66px;
+}
+.box_frame {
+   position: relative;
+   top: -65px;
+   left: 60px;
 }
 
 
+/* Footer */
+
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9003D;
+}
+
+footer span {
+    font-family: "Opens Sans";
+    font-size: 18px;
+    color: white;
+}
 
 
 
